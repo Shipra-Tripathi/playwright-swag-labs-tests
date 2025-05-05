@@ -4,14 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",                     // run all tests
-    "test:headed": "npx playwright test --headed",     // run headed
-    "install:browsers": "npx playwright install --with-deps", // install browsers
-    "report": "npx playwright show-report"             // open last HTML report
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "install:browsers": "npx playwright install --with-deps",
+    "report": "npx playwright show-report"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.14.0"
